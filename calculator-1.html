@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="text" id="input" disabled />
+
+    <div class="calculator">
+      <div class="row">
+        <button onclick="appendToinput('1')">1</button>
+        <button onclick="appendToinput('2')">2</button>
+        <button onclick="appendToinput('3')">3</button>
+        <button onclick="appendToinput('+')">+</button>
+      </div>
+      <div class="row">
+        <button onclick="appendToinput('4')">4</button>
+        <button onclick="appendToinput('5')">5</button>
+        <button onclick="appendToinput('6')">6</button>
+        <button onclick="appendToinput('-')">-</button>
+      </div>
+      <div class="row">
+        <button onclick="appendToinput('7')">7</button>
+        <button onclick="appendToinput('8')">8</button>
+        <button onclick="appendToinput('9')">9</button>
+        <button onclick="appendToinput('*')">*</button>
+      </div>
+      <div class="row">
+        <button onclick="appendToinput('0')">0</button>
+        <button onclick="clearinput()">C</button>
+        <button onclick="calculateResult()">=</button>
+        <button onclick="appendToinput('/')">/</button>
+        <button onclick="backspace()">Back</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 16px;
+}
+input {
+  width: 232px;
+  height: 50px;
+  margin: 5px;
+  font-size: 16px;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
